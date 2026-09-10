@@ -1,0 +1,7 @@
+a = 100
+b = 100
+print(a is b)  # True — small int caching
+
+x = 100000000000000000000000000000000000000000000000
+y = 100000000000000000000000000000000000000000000000
+print(x is y)  # False (usually) — outside the cached range
